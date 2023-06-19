@@ -1,0 +1,84 @@
+.header{
+  font-style: italic;
+  font-weight: 10px;
+  border-bottom-style: solid;
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+}
+
+.header .email{
+  margin-top: 10px;
+  margin-bottom:10px;
+  
+} 
+
+.header .logout{
+  margin-top: 10px;
+  margin-bottom:10px;
+  padding:10px
+}
+
+.header span{
+  margin-top: 10px;
+  background-color: bisque;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 25px;
+}
+.header span button{
+  background-color: transparent;
+  border: none;
+  color: blue;
+  font-weight:bold;
+  font-style: italic;
+}
+
+  .email {
+    border-radius: 10px;
+     /* background-color: rgb(140, 222, 77); */
+    color: black;
+
+    
+    
+  }
+   
+  .logout{
+    border-radius: 10px;
+     background-color: rgb(207, 77, 51);
+    color: black;
+    margin-left: 10px;
+
+  }
+
+  .premium{
+    border-radius: 10px;
+     /* background-color: rgb(71, 93, 219); */
+    color: black;
+    padding: 1px 1px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-left:10px
+  }
+
+  .toggle{
+    border-radius: 10px;
+     /* background-color: rgba(242, 251, 74, 0.982); */
+    color: black;
+    padding: 1px 1px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-left:10px
+
+  }
+.download{
+  border-radius: 10px;
+     /* background-color: rgba(236, 68, 147, 0.982); */
+    color: black;
+    padding: 1px 1px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-left:10px;
+    margin-right: 5px;
+
+}

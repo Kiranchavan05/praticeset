@@ -1,0 +1,92 @@
+.header{
+  font-style: italic;
+  font-weight: 10px;
+  border-bottom-style: solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .email{
+  margin-top: 10px;
+  margin-bottom:10px;
+  
+} 
+
+.header .logout{
+  margin-top: 10px;
+  margin-bottom:10px;
+  padding:10px
+}
+
+.header span{
+  margin-top: 10px;
+  background-color: bisque;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 25px;
+}
+.header span button{
+  background-color: transparent;
+  border: none;
+  color: blue;
+  font-weight:bold;
+  font-style: italic;
+}
+
+    
+    .section{
+      display: grid;
+      width: 60%;
+      margin-left: 35%;
+      margin-top: 5%;
+      padding: 10px;;
+      border-bottom: 1px solid black;
+    }
+
+    .details{
+      display: flex;
+      justify-content: space-between;
+
+    }
+
+    .details span{
+      font-weight: bold;
+
+    }
+
+    .details button{
+      color: red;
+      border: 1px solid red;
+      background-color: transparent;
+      border-radius: 5px;
+      font-weight: 600;
+      padding: 4px;
+      cursor:pointer
+    }
+
+    .section .form{
+      width: 75%;
+
+
+    }
+
+    .form label{
+      margin-left: 25px;
+      font-weight: bold;
+    }
+    .form input{
+      border-radius: 10px;
+      color: black;
+    }
+
+
+    .form button{
+      color: white;
+      background-color: maroon;
+      border: none;
+      display: flex;
+      border-radius: 10px;
+      margin-top: 5px;
+      cursor: pointer;
+      padding: 5px;
+    }

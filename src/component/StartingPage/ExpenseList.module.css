@@ -1,0 +1,57 @@
+.ul {
+    background-color: rgba(161, 123, 219, 0.889);
+    margin: 100px 100px;
+    /* text-align: center; */
+    list-style: none;
+    padding: 20px;
+    border-radius: 12px;
+    width: 60%;
+    margin-left: 15%;
+  }
+  
+  .ul li {
+    display: flex;
+    background-color: rgb(239, 232, 232);
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 12px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .actions {
+    /* background-color: red; */
+    padding: 5px;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .actions .edit {
+    background-color: greenyellow;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+  }
+  
+  .actions .delete {
+    background-color: rgb(241, 135, 135);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+  }
+  
+  .actions .edit:hover {
+    background-color: rgb(0, 255, 0);
+  }
+  
+  .actions .delete:hover {
+    background-color: rgb(206, 39, 134);
+  }
